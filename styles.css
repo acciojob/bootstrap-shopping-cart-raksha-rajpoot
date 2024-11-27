@@ -1,14 +1,17 @@
 /*  your css code here. If applicable */
 h2{
 	color:#3b99e0;
+	
 }
+
 h5{
 	color:#3b99e0;
 }
 .card-body{
 	display:flex;
-	justify-content:space-around;
+	justify-content:space-between;
 	align-items:center;
+	width:70%
 }
 img{
 	width:50px;
@@ -16,14 +19,21 @@ img{
 .summary{
 	width:30%;
 	background-color:#f7fbff;
-	border-top:#5ea4f3;
+	border-top:2px solid #5ea4f3;
+	position:absolute;
+	top:145px;
+	right:0px;
 }
 #btn{
 	background-color:blue;
 	border-radius:5px;
 	padding:10px;
+	width:100px;
 }
 button{
-	width:80px;
+	width:60px;
+	border:1px solid lightgray;
+	background-color:white
 }
+
 
